@@ -5,7 +5,7 @@ SLIDE_CSV = Path("data/slide_labels.csv")
 TILES_ROOT = Path("data/tiles")
 OUT_CSV = Path("data/tile_labels.csv")
 
-# 是否丢掉 Normal（推荐 True，做 4-class）
+# skip normal and keep 4 subtypes
 DROP_NORMAL = True
 KEEP = {"BRCA_LumA", "BRCA_LumB", "BRCA_Basal", "BRCA_Her2"}
 
